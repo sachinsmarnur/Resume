@@ -73,6 +73,7 @@ body {
 .profile-img {
   height: 400px;
   width: 300px;
+  border-radius: 20px;
 }
 .row {
   width: 90%;
