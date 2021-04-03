@@ -10,6 +10,7 @@
     integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" 
     crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 <div class="cursor"></div>
@@ -61,9 +62,9 @@
   <div class="about countainer" id="about">
     <div class="row">
       <div class="col-md-6 text-center">
-        <img src="./images/sachin.jpg" class="profile-img">
+        <img src="./images/sachin.jpg" class="profile-img" data-aos="fade-right">
       </div>
-      <div class="col-md-6">
+      <div class="col-md-6" data-aos="fade-left">
         <h3>Who AM I ?</h3>
         <p>I am Sachin S Marnur currently pursuing B-Tech in Electronics and Communication at REVA University. 
           I enjoy coding and problem solving. Acquiring Knowledge on Antenna Design and AI. Skilled in C/C++, HTML, CSS, and SQL.
@@ -101,7 +102,7 @@
   </div>
   <!-----Resume----->
   <div class="resume" id="resume">
-    <div class="container">
+    <div class="container" data-aos="zoom-in">
       <div class="row">
         <div class="col-md-4">
           <h3 class="text-center">My Education</h3>
@@ -176,23 +177,23 @@
   </div>
   <!----Services---->
   <div class="services" id="services">
-    <div class="container">
+    <div class="container" data-aos="zoom-in-down">
       <h1 class="text-center">My Offered Services</h1>
       <p class="text-center">A wide range of services provided at reasonable cost.</p>
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-4" data-aos="flip-left">
           <div class="services-box">
             <i class="fa fa-rocket"></i><span>Graphic Designing</span>
             <p>Graphic Design is the process of creating visual content to communicate information/ messages to the masses. Considered to be a sub-set of Communication Design, Graphic Design is used to create visual content using elements such as photographs, colours, typography, illustrations, and icons.  Graphic Design is now used for creating logos, design used in books, newspapers and magazines, advertising, product packaging, signage, and the likes.</p>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4" data-aos="flip-right">
           <div class="services-box">
             <i class="fa fa-line-chart"></i><span>Web Development</span>
             <p>Web development refers to building website and deploying on the web. Web development requires use of scripting languages both at the server end as well as at client end. Web development process includes all the steps that are good to take to build an attractive, effective and responsive website. Web development tools helps the developer to test and debug the web sites. Now a days the web development tooll come with the web browsers as add-ons.</p>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4" data-aos="flip-left">
           <div class="services-box">
             <i class="fa fa-laptop"></i><span>Freelancing</span>
             <p>Freelancing is a contract-based profession where instead of being recruited in an organisation, the person uses his skills and experience to provide services to a number of clients. In simple terms, freelancing is when you use your skills, education, and experience to work with multiple clients and take on various assignments without committing to a single employer. The number of assignments or tasks that you can take just boils down to your ability to deliver on them as asked from them.</p>
@@ -203,7 +204,7 @@
   </div>
   <!-----Contact------>
   <div class="contact" id="contact">
-    <div class="container text-center">
+    <div class="container text-center" data-aos="zoom-in-up">
       <h1>Contact Me</h1>
       <p class="text-center">Get to know more by following me on these social media icons.</p>
       <div class="row">
@@ -236,5 +237,12 @@
 integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" 
 crossorigin="anonymous"></script>
 <script src="./app.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    offset: 350,
+    duration: 650
+});
+</script>
 </body>
 </html>
