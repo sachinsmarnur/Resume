@@ -26,4 +26,4 @@ for(let i=0; i<logo.length; i++){
 
 setTimeout(function(){
     $('.loader').fadeToggle();
-}, 4500);
+}, 4850);
