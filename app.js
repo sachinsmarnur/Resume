@@ -1,5 +1,5 @@
 let Cursor = document.querySelector(".cursor");
-let navLinks = document.querySelectorAll(".navbar-nav li");
+let navLinks = document.querySelectorAll(".navbar-nav li a");
 
 window.addEventListener("mousemove", cursor);
 function cursor(e){
